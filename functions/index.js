@@ -1,8 +1,8 @@
 const functions = require("firebase-functions");
 const cors = require("cors")({ origin: true });
 const axios = require("axios");
-const accountSid = "ACc11d601fb12cb9b24cdc12c43c465505";
-const authToken = "ea728e0e4020d785c49634854fdf5493";
+const accountSid = "";
+const authToken = "";
 const client = require("twilio")(accountSid, authToken);
 const queries = require("./queries");
 const admin = require("firebase-admin");
